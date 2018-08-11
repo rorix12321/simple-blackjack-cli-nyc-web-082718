@@ -23,10 +23,8 @@ def end_game(card_total)
 end
 
 def initial_round
-  counter = 0
-  until counter == 2
-    deal_card
-    counter +=1
+  deal_card
+  deal_card
   end
   puts display_card_total
   return display_card_total
