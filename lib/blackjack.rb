@@ -29,6 +29,7 @@ def initial_round
   puts display_card_total
   return display_card_total
 end
+end
 
 def hit?
   # code hit? here
